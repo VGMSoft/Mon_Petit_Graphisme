@@ -4,13 +4,14 @@
 
 body {
     font-family: Roboto;
+    margin: 0;
 }
 /*header*/
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 0.5em;
+    margin: 0.5em;
 }
 nav{
     display: flex;
@@ -36,6 +37,7 @@ ul li {
     align-items: center;
     align-content: center;
     height: 70vh;width: auto;
+    margin: 0.5em;
 }
 #section1 img{
     width: 17%;
@@ -73,16 +75,50 @@ ul li {
     padding-left: 1.5em;padding-right: 1.5em;
 }
 #section2 #quote{
-    width: 75%; margin: auto;
+    width: 50%; margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding-left: 1.5em;padding-right: 1.5em;
-}
-#section2 #quote:nth-child(1){
-margin-bottom:0;
+
 }
 #section2 #quote p{
     color: #777777;
+}
+/*footer*/
+footer{
+    background-color: #9842f5;
+    color: #FFF;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+footer #social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 25%;margin: auto;
+    color: #CCC;
+}
+footer #social i{
+ font-size: 1.5em;
+}
+
+footer #info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+footer #info li{
+    padding-left: 0;
+}
+.info__section p:nth-of-type(1){
+    color: #CCC;
 }
